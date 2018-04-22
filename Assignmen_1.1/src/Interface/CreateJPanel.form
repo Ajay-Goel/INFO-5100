@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="NameBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="DOBBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="PhoneBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="FaxBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="SSNBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="EmailBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="MedicalBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="HealthBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="BankBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="LicenseBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="VehicleBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="DeviceBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="LinkedBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="BiometricBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="InternetBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="UniqueIdenBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" pref="36" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="BiometricTxtField" max="32767" attributes="0"/>
+                  <Component id="InternetTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="LinkedTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="DeviceTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="VehicleTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="LicenseTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="BankTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="HealthTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="MedicalTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="EmailTxtField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="AddressTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="DOBTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="PhoneTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="FaxTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="NameTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="SSNTextField" alignment="0" pref="80" max="32767" attributes="0"/>
+                  <Component id="UniqueTxtField" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="CreateBtn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="PathTxtField" max="32767" attributes="0"/>
+                          <Component id="Image_btn" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NameBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel19" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="Image_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddressBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PathTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DOBBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DOBTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PhoneBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PhoneTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FaxBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FaxTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EmailBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="EmailTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="SSNBtn" min="-2" max="-2" attributes="0"/>
+                  <Component id="SSNTextField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MedicalBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MedicalTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HealthBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HealthTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BankBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BankTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LicenseBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LicenseTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="VehicleBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VehicleTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DeviceBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DeviceTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LinkedBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LinkedTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InternetBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="InternetTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BiometricBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BiometricTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="UniqueIdenBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="UniqueTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CreateBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DOBBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D.O.B(MM/DD/YYYY):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PhoneBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FaxBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fax No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmailBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SSNBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S.S.N.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MedicalBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical Rec. No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HealthBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Health No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BankBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bank Acc. No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LicenseBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="VehicleBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle UDI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DeviceBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Device UDI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LinkedBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LinkedIn:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="InternetBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Internet Pr. Add.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BiometricBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Biometric Identifier:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="UniqueIdenBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unique Ident. No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="For Image:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="AddressTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DOBTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="PhoneTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="FaxTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmailTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="MedicalTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="HealthTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="BankTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="LicenseTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="VehicleTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DeviceTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="LinkedTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="BiometricTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="InternetTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="UniqueTxtField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="SSNTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="CreateBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CreateBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Image_btn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Browse:"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Image_btnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PathTxtField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Path_image"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PathTxtFieldActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

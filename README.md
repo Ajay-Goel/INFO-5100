@@ -1,1 +1,2 @@
 # INFO-5100
+Covers the basics of Java programming such as arrays, control structures, class definitions, class hierarchies, inheritance, objects, streams, constructors, collections, and GUI components. Describes how to develop and execute Java applications and incorporates several programming projects, which strengthen the understanding of object-based and event-driven programming. Provides the student with the opportunity to achieve a strong working competency in object-oriented programming using the Java programming language.

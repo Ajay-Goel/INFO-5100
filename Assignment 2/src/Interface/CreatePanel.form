@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="isAvalBtnGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jRadioButton1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="colorlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="carnolbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="ColorTxtField" pref="56" max="32767" attributes="0"/>
+                          <Component id="CarNoTxtField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ManYrlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Manufacturerlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ManufactureYrTxtField" max="32767" attributes="0"/>
+                          <Component id="ManufacturerTxtField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="mobnolbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="MobNoTxtField" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="ChasisNoTxtField" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Chasisnolbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Progress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="SaveBtn" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Noseatslbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Carlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="SeatsTxtField" max="32767" attributes="0"/>
+                          <Component id="CarTxtField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mainDatelbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="DateTxtField" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="YesRadio" min="-2" max="-2" attributes="0"/>
+                                  <Component id="NoBtn" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="ProgressBar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="ProgressBar" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Manufacturerlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Carlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ManufacturerTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CarTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ManYrlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Noseatslbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SeatsTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ManufactureYrTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="colorlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DateTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ColorTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mainDatelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="carnolbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CarNoTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NoBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Chasisnolbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ChasisNoTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="YesRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mobnolbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MobNoTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Progress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create Car Profile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Manufacturerlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ManufacturerTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Carlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CarTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ManYrlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacture Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ManufactureYrTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Noseatslbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. of Seats"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SeatsTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="colorlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ColorTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="mainDatelbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maintenance Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DateTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="carnolbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car No."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CarNoTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Chasisnolbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chasis No."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ChasisNoTxtField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="mobnolbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mobile No. driver"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MobNoTxtField">
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Availibility"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="YesRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="isAvalBtnGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="click - yes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="ProgressBar">
+      <Properties>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Progress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Check Progress"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProgressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="NoBtn">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="isAvalBtnGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="click- No"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NoBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
